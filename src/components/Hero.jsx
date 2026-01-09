@@ -109,18 +109,6 @@ const Hero = () => {
             Exploring the Frontiers of Technology
           </motion.p>
         </motion.div>
-        <motion.div 
-          className="scroll-indicator"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.6, duration: 0.6 }}
-        >
-          <motion.div 
-            className="scroll-arrow"
-            animate={{ y: [0, 10, 0] }}
-            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-          />
-        </motion.div>
       </motion.div>
       <div className="hero-particles"></div>
     </section>
